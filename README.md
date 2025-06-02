@@ -10,8 +10,11 @@ Simple message service prototype built using FastAPI + uvicorn, using local db w
 
 # Build Guide
 git clone https://github.com/antonschulz/message-service
+
 cd message-service
+
 docker compose up --build
+
 ---> REST-API should be available at localhost:8000
 
 # Example Usage (or see localhost:8000/docs)
